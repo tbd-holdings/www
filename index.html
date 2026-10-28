@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TBD Capital</title>
+<meta name="description" content="A privately held company focused on long-term value.">
+<meta name="theme-color" content="#fafaf8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d0d0d" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://tbd.holdings/">
+<link rel="icon" href="/assets/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/assets/site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tbd.holdings/">
+<meta property="og:site_name" content="TBD Capital">
+<meta property="og:title" content="TBD Capital">
+<meta property="og:description" content="A privately held company focused on long-term value.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="TBD Capital">
+<meta name="twitter:description" content="A privately held company focused on long-term value.">
+<style>
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url("/assets/fonts/inter-latin-wght-normal.woff2") format("woff2");
+  }
+  :root {
+    color-scheme: light dark;
+    --bg: #fafaf8;
+    --name: #222222;
+    --tagline: #595959;
+    --footer: #6e6e6e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d0d0d;
+      --name: #e2e2e2;
+      --tagline: #a8a8a8;
+      --footer: #8a8a8a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 16px;
+    background: var(--bg);
+    color: var(--name);
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .group {
+    width: 100%;
+    text-align: center;
+  }
+  h1 {
+    margin: 0;
+    /* longest word (CAPITAL) is about 4.5em wide, so 18vw always fits */
+    font-size: min(8rem, 18vw);
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    line-height: 1.1;
+    color: var(--name);
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: none;
+  }
+  .tagline {
+    margin: 1.5rem 0 0;
+    font-size: 1.15rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--tagline);
+  }
+  footer {
+    margin-top: 4rem;
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: var(--footer);
+  }
+  footer p { margin: 0; }
+</style>
+</head>
+<body>
+<div class="group">
+  <main>
+    <h1>TBD Capital</h1>
+    <p class="tagline">A privately held company focused on long-term value.</p>
+  </main>
+  <footer>
+    <p>© 2025 TBD Capital. All rights reserved.</p>
+  </footer>
+</div>
+</body>
+</html>
